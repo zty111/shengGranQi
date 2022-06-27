@@ -101,6 +101,7 @@ public:
     QLabel *label_yamen_7;
     QLabel *label_granjie_7;
     QTextEdit *history;
+    QLabel *background;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -109,6 +110,9 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(800, 600);
+        MainWindow->setAutoFillBackground(false);
+        MainWindow->setStyleSheet(QString::fromUtf8("font: 18pt \"STKaiti\";\n"
+""));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayoutWidget = new QWidget(centralwidget);
@@ -164,10 +168,16 @@ public:
 
         pushButton_five = new QPushButton(centralwidget);
         pushButton_five->setObjectName(QString::fromUtf8("pushButton_five"));
-        pushButton_five->setGeometry(QRect(70, 400, 100, 32));
+        pushButton_five->setGeometry(QRect(70, 390, 100, 61));
+        pushButton_five->setAutoFillBackground(false);
+        pushButton_five->setStyleSheet(QString::fromUtf8("background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 66), stop:0.65 rgba(159, 235, 148, 128), stop:0.721925 rgba(255, 238, 150, 255), stop:0.77 rgba(255, 128, 128, 255), stop:0.89 rgba(191, 128, 255, 128), stop:1 rgba(0, 0, 0, 0));\n"
+"font: 20pt \"STKaiti\";"));
+        pushButton_five->setFlat(false);
         label_suishu = new QLabel(centralwidget);
         label_suishu->setObjectName(QString::fromUtf8("label_suishu"));
-        label_suishu->setGeometry(QRect(80, 460, 81, 51));
+        label_suishu->setGeometry(QRect(70, 460, 111, 81));
+        label_suishu->setStyleSheet(QString::fromUtf8("background-image: url(:/oldpaper.png);\n"
+"font: 18pt \"STKaiti\";"));
         label_suishu->setAlignment(Qt::AlignCenter);
         verticalLayoutWidget_2 = new QWidget(centralwidget);
         verticalLayoutWidget_2->setObjectName(QString::fromUtf8("verticalLayoutWidget_2"));
@@ -242,7 +252,17 @@ public:
 
         pushButton_one = new QPushButton(centralwidget);
         pushButton_one->setObjectName(QString::fromUtf8("pushButton_one"));
-        pushButton_one->setGeometry(QRect(70, 340, 100, 32));
+        pushButton_one->setEnabled(true);
+        pushButton_one->setGeometry(QRect(70, 320, 100, 61));
+        pushButton_one->setFocusPolicy(Qt::TabFocus);
+        pushButton_one->setContextMenuPolicy(Qt::DefaultContextMenu);
+        pushButton_one->setLayoutDirection(Qt::LeftToRight);
+        pushButton_one->setAutoFillBackground(false);
+        pushButton_one->setStyleSheet(QString::fromUtf8("background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 17), stop:0.65 rgba(159, 235, 148, 32), stop:0.721925 rgba(255, 238, 150, 65), stop:0.77 rgba(255, 128, 128, 102), stop:0.89 rgba(191, 128, 255, 32), stop:1 rgba(0, 0, 0, 0));\n"
+"font: 20pt \"STKaiti\";\n"
+"\n"
+""));
+        pushButton_one->setFlat(false);
         verticalLayoutWidget_3 = new QWidget(centralwidget);
         verticalLayoutWidget_3->setObjectName(QString::fromUtf8("verticalLayoutWidget_3"));
         verticalLayoutWidget_3->setGeometry(QRect(20, 0, 241, 151));
@@ -317,21 +337,31 @@ public:
         card_one = new QPushButton(centralwidget);
         card_one->setObjectName(QString::fromUtf8("card_one"));
         card_one->setGeometry(QRect(220, 320, 100, 201));
+        card_one->setStyleSheet(QString::fromUtf8("font: 32pt \"STKaiti\";\n"
+"background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 255), stop:0.5 rgba(255, 255, 255, 255), stop:1 rgba(0, 0, 0, 255));"));
         card_two = new QPushButton(centralwidget);
         card_two->setObjectName(QString::fromUtf8("card_two"));
         card_two->setGeometry(QRect(330, 320, 100, 201));
+        card_two->setStyleSheet(QString::fromUtf8("font: 18pt \"STKaiti\";\n"
+"background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 255), stop:0.2 rgba(255, 255, 255, 255), stop:0.8 rgba(255, 255, 255, 255), stop:1 rgba(0, 0, 0, 255));"));
         card_three = new QPushButton(centralwidget);
         card_three->setObjectName(QString::fromUtf8("card_three"));
         card_three->setGeometry(QRect(440, 320, 100, 201));
+        card_three->setStyleSheet(QString::fromUtf8("font: 32pt \"STKaiti\";\n"
+"background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 255), stop:0.5 rgba(255, 255, 255, 255), stop:1 rgba(0, 0, 0, 255));"));
         card_four = new QPushButton(centralwidget);
         card_four->setObjectName(QString::fromUtf8("card_four"));
         card_four->setGeometry(QRect(550, 320, 100, 201));
+        card_four->setStyleSheet(QString::fromUtf8("font: 32pt \"STKaiti\";\n"
+"background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 255), stop:0.5 rgba(255, 255, 255, 255), stop:1 rgba(0, 0, 0, 255));"));
         card_five = new QPushButton(centralwidget);
         card_five->setObjectName(QString::fromUtf8("card_five"));
         card_five->setGeometry(QRect(660, 320, 100, 201));
+        card_five->setStyleSheet(QString::fromUtf8("font: 32pt \"STKaiti\";\n"
+"background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 255), stop:0.5 rgba(255, 255, 255, 255), stop:1 rgba(0, 0, 0, 255));"));
         horizontalLayoutWidget_3 = new QWidget(centralwidget);
         horizontalLayoutWidget_3->setObjectName(QString::fromUtf8("horizontalLayoutWidget_3"));
-        horizontalLayoutWidget_3->setGeometry(QRect(310, 10, 421, 96));
+        horizontalLayoutWidget_3->setGeometry(QRect(310, 10, 510, 96));
         horizontalLayout_9 = new QHBoxLayout(horizontalLayoutWidget_3);
         horizontalLayout_9->setObjectName(QString::fromUtf8("horizontalLayout_9"));
         horizontalLayout_9->setContentsMargins(0, 0, 0, 0);
@@ -448,7 +478,26 @@ public:
         history = new QTextEdit(centralwidget);
         history->setObjectName(QString::fromUtf8("history"));
         history->setGeometry(QRect(470, 120, 291, 181));
+        history->setStyleSheet(QString::fromUtf8("font: 14pt \"STKaiti\";"));
+        background = new QLabel(centralwidget);
+        background->setObjectName(QString::fromUtf8("background"));
+        background->setGeometry(QRect(7, 5, 811, 541));
+        background->setStyleSheet(QString::fromUtf8("background-image: url(:/background.png);"));
         MainWindow->setCentralWidget(centralwidget);
+        background->raise();
+        verticalLayoutWidget->raise();
+        pushButton_five->raise();
+        label_suishu->raise();
+        verticalLayoutWidget_2->raise();
+        pushButton_one->raise();
+        verticalLayoutWidget_3->raise();
+        card_one->raise();
+        card_two->raise();
+        card_three->raise();
+        card_four->raise();
+        card_five->raise();
+        horizontalLayoutWidget_3->raise();
+        history->raise();
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
         menubar->setGeometry(QRect(0, 0, 800, 24));
@@ -471,7 +520,7 @@ public:
         label_name->setText(QCoreApplication::translate("MainWindow", "\345\256\213\346\230\216", nullptr));
         Label_granzhi->setText(QCoreApplication::translate("MainWindow", "\345\256\230\350\201\214", nullptr));
         label_granzhi->setText(QCoreApplication::translate("MainWindow", "\345\217\270\345\212\241", nullptr));
-        pushButton_five->setText(QCoreApplication::translate("MainWindow", "\344\272\224\350\277\236\346\212\275\357\274\201", nullptr));
+        pushButton_five->setText(QCoreApplication::translate("MainWindow", "!\344\272\224\350\277\236\346\212\275!", nullptr));
         label_suishu->setText(QCoreApplication::translate("MainWindow", "\345\262\201\346\225\260\357\274\23218", nullptr));
         Label_gaily->setText(QCoreApplication::translate("MainWindow", "\346\246\202\347\216\207", nullptr));
         Label_de->setText(QCoreApplication::translate("MainWindow", "\345\276\267", nullptr));
@@ -522,10 +571,11 @@ public:
         history->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt;\">\343\200\22012\345\262\201\343\200\221\350\207\243\346\234\254\345\270\203\350\241\243\357\274\214\350\272\254\350\200\225\344\272\216\345\215\227\351\230\263\343\200\202</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt;\">\343\200\22018\345\262\201\343\200\221\345\233\240\345\271\262\344\272\213\345\210\251\350\220\275\357\274\214\350\242\253\346\210\267\351\203\250\345\217\270\345"
-                        "\212\241\345\216\205\351\200\211\344\270\255\357\274\214\345\276\227\345\256\230\345\217\270\345\212\241\343\200\202</span></p></body></html>", nullptr));
+"</style></head><body style=\" font-family:'STKaiti'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">\343\200\22012\345\262\201\343\200\221\350\207\243\346\234\254\345\270\203\350\241\243\357\274\214\350\272\254\350\200\225\344\272\216\345\215\227\351\230\263\343\200\202</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">\343\200\22018\345\262\201\343\200\221\345\233\240\345\271\262\344\272\213\345\210\251\350\220\275\357\274\214\350\242\253\346\210\267\351\203\250\345\217\270\345\212\241\345\216\205\351\200\211\344\270\255\357\274\214\345\276\227\345\256\230\345"
+                        "\217\270\345\212\241\343\200\202</p></body></html>", nullptr));
+        background->setText(QString());
     } // retranslateUi
 
 };

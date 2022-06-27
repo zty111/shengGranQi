@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <random>
+#include <QTime>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -13,6 +14,11 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+//美化部分
+
+QString ui_card_origin = "font-size:32px;font-family:STKaiti;background-color:qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 255), stop:0.5 rgba(255, 255, 255, 255), stop:1 rgba(0, 0, 0, 255));";
+QString ui_card_used = "font-size:18px;font-family:STKaiti;background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 255), stop:0.2 rgba(255, 255, 255, 255), stop:0.8 rgba(255, 255, 255, 255), stop:1 rgba(0, 0, 0, 255));";
 
 //属性部分
 
@@ -46,6 +52,7 @@ void MainWindow::on_pushButton_one_clicked()
         ui->card_one->setText("");
         ui->card_two->setText("");
         ui->card_three->setText(num_to_name[randnum[std::rand() % 100]]);
+        ui->card_three->setStyleSheet(ui_card_origin);
         ui->card_four->setText("");
         ui->card_five->setText("");
     }
@@ -58,10 +65,15 @@ void MainWindow::on_pushButton_five_clicked()
         flagnum = 5;
         std::srand(std::time(0));
         ui->card_one->setText(num_to_name[randnum[std::rand() % 100]]);
+        ui->card_one->setStyleSheet(ui_card_origin);
         ui->card_two->setText(num_to_name[randnum[std::rand() % 100]]);
+        ui->card_two->setStyleSheet(ui_card_origin);
         ui->card_three->setText(num_to_name[randnum[std::rand() % 100]]);
+        ui->card_three->setStyleSheet(ui_card_origin);
         ui->card_four->setText(num_to_name[randnum[std::rand() % 100]]);
+        ui->card_four->setStyleSheet(ui_card_origin);
         ui->card_five->setText(num_to_name[randnum[std::rand() % 100]]);
+        ui->card_five->setStyleSheet(ui_card_origin);
     }
 }
 
@@ -147,6 +159,7 @@ void MainWindow::on_card_one_clicked()
     QString text = ui->card_one->text();
     QString newtext = card_click(text, get_same_num(text));
     ui->card_one->setText(newtext);
+    ui->card_one->setStyleSheet(ui_card_used);
 }
 
 void MainWindow::on_card_two_clicked()
@@ -154,6 +167,7 @@ void MainWindow::on_card_two_clicked()
     QString text = ui->card_two->text();
     QString newtext = card_click(text, get_same_num(text));
     ui->card_two->setText(newtext);
+    ui->card_two->setStyleSheet(ui_card_used);
 }
 
 void MainWindow::on_card_three_clicked()
@@ -161,6 +175,7 @@ void MainWindow::on_card_three_clicked()
     QString text = ui->card_three->text();
     QString newtext = card_click(text, get_same_num(text));
     ui->card_three->setText(newtext);
+    ui->card_three->setStyleSheet(ui_card_used);
 }
 
 void MainWindow::on_card_four_clicked()
@@ -168,6 +183,7 @@ void MainWindow::on_card_four_clicked()
     QString text = ui->card_four->text();
     QString newtext = card_click(text, get_same_num(text));
     ui->card_four->setText(newtext);
+    ui->card_four->setStyleSheet(ui_card_used);
 }
 
 void MainWindow::on_card_five_clicked()
@@ -175,6 +191,7 @@ void MainWindow::on_card_five_clicked()
     QString text = ui->card_five->text();
     QString newtext = card_click(text, get_same_num(text));
     ui->card_five->setText(newtext);
+    ui->card_five->setStyleSheet(ui_card_used);
 }
 
 // ui部分

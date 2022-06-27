@@ -12,7 +12,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>my.example.com</string>
 	<key>CFBundleExecutable</key>
-	<string>shengGranQi</string>
+	<string>ShengGranQi</string>
 
 	<key>CFBundleVersion</key>
 	<string>0.1</string>

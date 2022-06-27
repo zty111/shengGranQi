@@ -1,5 +1,5 @@
 /Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
 /Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/CMakeFiles/edit_cache.dir
-/Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/CMakeFiles/shengGranQi.dir
-/Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/CMakeFiles/shengGranQi_autogen_timestamp_deps.dir
-/Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/CMakeFiles/shengGranQi_autogen.dir
+/Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/CMakeFiles/ShengGranQi.dir
+/Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/CMakeFiles/ShengGranQi_autogen_timestamp_deps.dir
+/Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/CMakeFiles/ShengGranQi_autogen.dir
