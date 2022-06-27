@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "shengGranQi",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "shengGranQi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shengGranQi-Debug-17c356d46f4b28c4b575.json",
+					"name" : "shengGranQi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shengGranQi_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shengGranQi_autogen-Debug-35f9aa317a319ada86cd.json",
+					"name" : "shengGranQi_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shengGranQi_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shengGranQi_autogen_timestamp_deps-Debug-eb2e24f096701302f69a.json",
+					"name" : "shengGranQi_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug",
+		"source" : "/Users/zty/Desktop/大一下/程设/shengGranQi/shengGranQi"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

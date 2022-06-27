@@ -1,0 +1,9 @@
+# ninja log v5
+1	159	1656325409002247723	shengGranQi_autogen/timestamp	2d44cf7c475f8e5d
+1	159	1656325409002247723	shengGranQi_autogen/mocs_compilation.cpp	2d44cf7c475f8e5d
+1	159	1656325409002247723	/Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/shengGranQi_autogen/timestamp	2d44cf7c475f8e5d
+1	159	1656325409002247723	/Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/shengGranQi_autogen/mocs_compilation.cpp	2d44cf7c475f8e5d
+160	790	1656325409634701500	CMakeFiles/shengGranQi.dir/main.cpp.o	4513d89e6d6ca93
+159	796	1656325409640786505	CMakeFiles/shengGranQi.dir/shengGranQi_autogen/mocs_compilation.cpp.o	4bc185e60b4543d0
+160	902	1656325409747315467	CMakeFiles/shengGranQi.dir/mainwindow.cpp.o	f508b7ab48653648
+902	973	1656325409820679898	shengGranQi.app/Contents/MacOS/shengGranQi	bde76c7649d56665
