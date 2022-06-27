@@ -70,7 +70,7 @@
         </widget>
        </item>
        <item alignment="Qt::AlignHCenter">
-        <widget class="QLabel" name="label_zhiwu">
+        <widget class="QLabel" name="label_granzhi">
          <property name="text">
           <string>司务</string>
          </property>

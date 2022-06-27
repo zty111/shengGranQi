@@ -37,7 +37,7 @@ public:
     QLabel *label_name;
     QHBoxLayout *horizontalLayout_2;
     QLabel *Label_granzhi;
-    QLabel *label_zhiwu;
+    QLabel *label_granzhi;
     QPushButton *pushButton_five;
     QLabel *label_suishu;
     QWidget *verticalLayoutWidget_2;
@@ -154,10 +154,10 @@ public:
 
         horizontalLayout_2->addWidget(Label_granzhi, 0, Qt::AlignHCenter);
 
-        label_zhiwu = new QLabel(verticalLayoutWidget);
-        label_zhiwu->setObjectName(QString::fromUtf8("label_zhiwu"));
+        label_granzhi = new QLabel(verticalLayoutWidget);
+        label_granzhi->setObjectName(QString::fromUtf8("label_granzhi"));
 
-        horizontalLayout_2->addWidget(label_zhiwu, 0, Qt::AlignHCenter);
+        horizontalLayout_2->addWidget(label_granzhi, 0, Qt::AlignHCenter);
 
 
         verticalLayout->addLayout(horizontalLayout_2);
@@ -470,7 +470,7 @@ public:
         Label_name->setText(QCoreApplication::translate("MainWindow", "\345\247\223\345\220\215", nullptr));
         label_name->setText(QCoreApplication::translate("MainWindow", "\345\256\213\346\230\216", nullptr));
         Label_granzhi->setText(QCoreApplication::translate("MainWindow", "\345\256\230\350\201\214", nullptr));
-        label_zhiwu->setText(QCoreApplication::translate("MainWindow", "\345\217\270\345\212\241", nullptr));
+        label_granzhi->setText(QCoreApplication::translate("MainWindow", "\345\217\270\345\212\241", nullptr));
         pushButton_five->setText(QCoreApplication::translate("MainWindow", "\344\272\224\350\277\236\346\212\275\357\274\201", nullptr));
         label_suishu->setText(QCoreApplication::translate("MainWindow", "\345\262\201\346\225\260\357\274\23218", nullptr));
         Label_gaily->setText(QCoreApplication::translate("MainWindow", "\346\246\202\347\216\207", nullptr));

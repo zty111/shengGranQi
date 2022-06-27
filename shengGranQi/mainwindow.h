@@ -20,10 +20,6 @@ private slots:
 
     void on_pushButton_five_clicked();
 
-    int get_same_num(QString);
-
-    QString card_click(QString, int);
-
     void on_card_one_clicked();
 
     void on_card_two_clicked();
@@ -34,9 +30,15 @@ private slots:
 
     void on_card_five_clicked();
 
-    void add_history(QString);
-
 private:
     Ui::MainWindow *ui;
+
+    int get_same_num(QString);
+
+    QString card_click(QString, int);
+
+    void add_history(QString);
+
+    void solve_de_one(QString &);
 };
 #endif // MAINWINDOW_H

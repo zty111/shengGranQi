@@ -16,7 +16,7 @@ MainWindow::~MainWindow()
 
 //属性部分
 
-int p_ming, p_wen, p_wu, p_money, p_ti, p_level;
+int p_ming, p_wen, p_wu, p_money, p_ti, p_level, p_year = 18;
 QString p_granjie, p_granzhi, p_name;
 int gailv[5] = {25, 25, 25, 25, 0};
 
@@ -92,7 +92,7 @@ QString MainWindow::card_click(QString text, int same_num) {
         else if(same_num >= 3)
             ;//sovle_de_three(..., newtext);
         else if(same_num >= 1)
-            ;//sovle_de_one(..., newtext);
+            solve_de_one(newtext);
         return newtext;
     } else if(text == "才") {
         flagnum -= same_num;
@@ -177,6 +177,32 @@ void MainWindow::on_card_five_clicked()
     ui->card_five->setText(newtext);
 }
 
+// ui部分
+
 void MainWindow::add_history(QString text) {
     ui->history->append(text);
+}
+
+// 事件部分
+
+QString level_to_name[5] = {"白丁", "", "正七品", "", "正四品"};
+QString level_to_gran[5] = {"状元", "", "知县", "", "知府"};
+
+void MainWindow::solve_de_one(QString & text) {
+    p_level += 2;
+    p_granjie = level_to_name[p_level];
+    p_granzhi = level_to_gran[p_level];
+    text += "\n\n任职期间\n颇有德行\n升为" + p_granzhi;
+    ui->label_granjie->setText(p_granjie);
+    ui->label_granzhi->setText(p_granzhi);
+    p_ming += 1;
+    ui->label_ming->setText(QString::number(p_ming));
+    gailv[0] += 1;
+    gailv[3] += 1;
+    gailv[1] -= 2;
+    ui->label_de->setText(QString::number(gailv[0]) + "%");
+    ui->label_cai->setText(QString::number(gailv[1]) + "%");
+    ui->label_zang->setText(QString::number(gailv[3]) + "%");
+    p_year += 1;
+    add_history("【" + QString::number(p_year) + "岁】任职期间，颇有德行，升为" + p_granzhi + "。");
 }
