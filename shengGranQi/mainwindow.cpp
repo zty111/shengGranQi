@@ -204,5 +204,6 @@ void MainWindow::solve_de_one(QString & text) {
     ui->label_cai->setText(QString::number(gailv[1]) + "%");
     ui->label_zang->setText(QString::number(gailv[3]) + "%");
     p_year += 1;
+    ui->label_suishu->setText("岁数：" + QString::number(p_year));
     add_history("【" + QString::number(p_year) + "岁】任职期间，颇有德行，升为" + p_granzhi + "。");
 }
