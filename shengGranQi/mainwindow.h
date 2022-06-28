@@ -33,12 +33,6 @@ private slots:
 private:
     Ui::MainWindow *ui;
 
-    int get_same_num(QString);
-
-    QString card_click(QString, int);
-
-    void add_history(QString);
-
-    void solve_de_one(QString &);
+    void updateUI();
 };
 #endif // MAINWINDOW_H

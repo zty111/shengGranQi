@@ -157,7 +157,7 @@ build ShengGranQi_autogen/EWIEGA46WW/qrc_res.cpp | ${cmake_ninja_workdir}ShengGr
 #############################################
 # Phony custom command for CMakeFiles/ShengGranQi_autogen_timestamp_deps
 
-build CMakeFiles/ShengGranQi_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/ShengGranQi_autogen_timestamp_deps: phony /Users/zty/Qt/6.3.0/macos/lib/QtCore.framework/Versions/A/QtCore /Users/zty/Qt/6.3.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/zty/Qt/6.3.0/macos/./libexec/uic /Users/zty/Qt/6.3.0/macos/./libexec/moc
+build CMakeFiles/ShengGranQi_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/ShengGranQi_autogen_timestamp_deps: phony /Users/zty/Qt/6.3.0/macos/./libexec/uic /Users/zty/Qt/6.3.0/macos/./libexec/moc /Users/zty/Qt/6.3.0/macos/lib/QtCore.framework/Versions/A/QtCore /Users/zty/Qt/6.3.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 
 
 #############################################

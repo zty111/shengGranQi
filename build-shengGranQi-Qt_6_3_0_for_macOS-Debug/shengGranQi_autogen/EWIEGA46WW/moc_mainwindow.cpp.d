@@ -1,5 +1,5 @@
-/Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/shengGranQi_autogen/EWIEGA46WW/moc_mainwindow.cpp: /Users/zty/Desktop/大一下/程设/shengGranQi/shengGranQi/mainwindow.h \
-  /Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/shengGranQi_autogen/moc_predefs.h \
+/Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/ShengGranQi_autogen/EWIEGA46WW/moc_mainwindow.cpp: /Users/zty/Desktop/大一下/程设/shengGranQi/shengGranQi/mainwindow.h \
+  /Users/zty/Desktop/大一下/程设/shengGranQi/build-shengGranQi-Qt_6_3_0_for_macOS-Debug/ShengGranQi_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \

@@ -305,7 +305,7 @@ ShengGranQi_autogen/timestamp: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/stdarg.h \
   CMakeFiles/3.21.1/CMakeCXXCompiler.cmake \
   CMakeFiles/3.21.1/CMakeSystem.cmake \
-  shengGranQi_autogen/moc_predefs.h \
+  ShengGranQi_autogen/moc_predefs.h \
   /Users/zty/Desktop/大一下/程设/shengGranQi/shengGranQi/CMakeLists.txt \
   /Users/zty/Desktop/大一下/程设/shengGranQi/shengGranQi/main.cpp \
   /Users/zty/Desktop/大一下/程设/shengGranQi/shengGranQi/mainwindow.cpp \
